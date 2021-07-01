@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>废液网二代</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image:url('/images/星空.jpeg');
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:#263c8b;opacity:0.9;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color:#2e231f;opacity:0.9;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:#bdbf78;opacity:0.9;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color:#bfa524;opacity:0.9;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color:#bdbf78;opacity:0.9;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#263c8b;opacity:0.9;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>废液网</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">有点甜</a>
+  <a href="#">软骨炎</a>
+  <a href="#">还有啥</a>
+  <a href="index.html" style="float:right">返回主站</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <p>时光静静流淌</p>
+      <p>我们一起走过</p>
+    </div>
+    <div class="card"style="opacity:1">
+        <iframe height=720px width=1280px ; src="//player.bilibili.com/player.html?bvid=BV144411d7S4&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>爱情有点甜</h2>
+      <div class="fakeimg" style="height:100px;">
+        <iframe height=100% width=100% ; src="//player.bilibili.com/player.html?bvid=BV1S441177yE&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+      <p></p>
+    </div>
+    <div class="card">
+      <h3>软骨炎患者福音</h3>
+      <div class="fakeimg"><p>宝鸡十一医院院长</p></div>
+      <div class="fakeimg"><p>软骨？我们是专业的</p></div>
+      <div class="fakeimg"><p>啊！软骨</p></div>
+    </div>
+    <div class="card">
+      <h3>有什么好的想法告诉加零啊</h3>
+      <p>网页持续更新中...</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>制作-加零</h2>
+</div>
+
+</body>
+</html>
