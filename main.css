@@ -5,12 +5,12 @@
     /* cursor: url("../未标题-2.png"), default; */
 }
 html{
-    background: fixed center url(./kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg);
+    background: fixed center url(./1.jpg);
     background-size: cover;
 }
 body{
     background-color: rgba(0,0,0,0.2);
-    height:120vh;
+    height:140vh;
     padding-right: 5vw;
     padding-left: 5vw;
     padding-top: 10vh;
