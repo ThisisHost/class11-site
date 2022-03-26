@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(221, 209, 209);
+    /* cursor: url("../未标题-2.png"), default; */
+}
+html{
+    background: fixed center url(./kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg);
+    background-size: cover;
+}
+body{
+    background-color: rgba(0,0,0,0.2);
+    height:120vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+#ceetitle{
+    text-align: center;
+    margin: 3vw;
+    box-shadow: 0 8px 12px rgba(255,255,255,.3);
+}
+#cee{
+    text-align: center;
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+	box-shadow: 0 8px 12px rgba(255,255,255,.3);
+    margin-left: 2vw; 
+    margin-right: 2vw; 
+
+}
+#ceebar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 30vh; 
+    line-height: 30vh;
+    font-size: 5vw;
+    font-weight:900;
+}
+#day{
+    flex: 1;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+	box-shadow: 0 8px 12px rgba(255,255,255,.3);
+}
+#hour{
+    flex: 1;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+	box-shadow: 0 8px 12px rgba(255,255,255,.3);
+}
+#min{
+    flex: 1;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+	box-shadow: 0 8px 12px rgba(255,255,255,.3);
+}
+
+#day:hover{
+    box-shadow: 0 50px 50px rgba(255,255,255,.3);
+}
+#hour:hover{
+    box-shadow: 0 50px 50px rgba(255,255,255,.3);
+}
+#min:hover{
+    box-shadow: 0 50px 50px rgba(255,255,255,.3);
+}
+#cee:hover{
+    box-shadow: 0 20px 20px rgba(255,255,255,.3);
+}
+#ceetitle:hover{
+    box-shadow: 0 20px 20px rgba(255,255,255,.3);
+}
+
+#bar {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+    box-shadow: 0 8px 12px rgba(255,255,255,.3);
+    display: flex;
+  }
+  
+  #bar-line {
+    text-align: right;
+    line-height: 15vh;
+    width:100%; 
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+    background-color:rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 30px rgba(255,255,255,.3);
+    font-size: 4vw;
+    font-weight:900;
+  }
+
+  #bar:hover{
+    box-shadow: 0 30px 30px rgba(255,255,255,.3);
+  }
+
+  p{
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter:blur(0.1vw);
+    margin: 2vw;
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4vh;
+    box-shadow: 0 8px 12px rgba(255,255,255,.3);
+  }
+  P:hover{
+    box-shadow: 0 30px 30px rgba(255,255,255,.3);
+  }
+  iframe{
+    margin: 2vw;
+    width: 84vw;
+    height: 40vh;
+    box-shadow: 0 8px 12px rgba(255,255,255,.3);
+  }
+  iframe:hover{
+    box-shadow: 0 30px 30px rgba(255,255,255,.3);
+  }
+
+
