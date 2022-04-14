@@ -19,6 +19,6 @@ update();
         min.textContent=mind+"分"
         
         bar.style.width=Math.ceil(((CEE.getTime()-now.getTime())/(CEE.getTime()-start.getTime())*100))+"%"
-        bar.textContent = "你的高中时代已过去了"+Math.ceil(((CEE.getTime()-now.getTime())/(CEE.getTime()-start.getTime())*100))+"%";
+        bar.textContent = "你的高中时代已过去了"+Math.ceil(((now.getTime()-start.getTime())/(CEE.getTime()-start.getTime())*100))+"%";
         setTimeout(update,500)
     }
